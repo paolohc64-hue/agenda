@@ -1,0 +1,356 @@
+{
+  "agenda_completa": {
+    "parametri_personali": {
+      "dati_anagrafici": {
+        "nome": "",
+        "cognome": "",
+        "data_nascita": "YYYY-MM-DD",
+        "luogo_nascita": "",
+        "sesso": "M/F",
+        "cittadinanza": "",
+        "codice_fiscale": "",
+        "numero_tessera_identita": "",
+        "scadenza_identita": "YYYY-MM-DD"
+      },
+      "documenti": {
+        "passaporto": {
+          "numero": "",
+          "data_emissione": "YYYY-MM-DD",
+          "data_scadenza": "YYYY-MM-DD",
+          "paese_emissione": ""
+        },
+        "patente": {
+          "numero": "",
+          "categoria": "",
+          "data_emissione": "YYYY-MM-DD",
+          "data_scadenza": "YYYY-MM-DD"
+        },
+        "tessera_sanitaria": {
+          "numero": "",
+          "data_scadenza": "YYYY-MM-DD"
+        }
+      },
+      "contatti": {
+        "indirizzo_residenza": "",
+        "CAP": "",
+        "città": "",
+        "provincia": "",
+        "telefono_principale": "",
+        "telefono_secondario": "",
+        "email_principale": "",
+        "email_secondaria": ""
+      },
+      "dati_familiari": {
+        "stato_civile": "celibe/nubile/coniugato/divorziato/vedovo",
+        "coniuge": {
+          "nome": "",
+          "cognome": "",
+          "data_matrimonio": "YYYY-MM-DD"
+        },
+        "figli": [
+          {
+            "nome": "",
+            "data_nascita": "YYYY-MM-DD",
+            "codice_fiscale": ""
+          }
+        ]
+      }
+    },
+    "parametri_aziendali": {
+      "dati_aziendali": {
+        "ragione_sociale": "",
+        "partita_IVA": "",
+        "numero_REA": "",
+        "forma_giuridica": "SRL/SPA/Ditta Individuale/Snc/Sas/Associazione",
+        "data_costituzione": "YYYY-MM-DD",
+        "data_inizio_attivita": "YYYY-MM-DD",
+        "settore_attivita": "",
+        "descrizione_attivita": "",
+        "classificazione_ATECO": ""
+      },
+      "sede_legale": {
+        "indirizzo": "",
+        "numero_civico": "",
+        "CAP": "",
+        "città": "",
+        "provincia": "",
+        "stato": ""
+      },
+      "sede_operativa": {
+        "indirizzo": "",
+        "numero_civico": "",
+        "CAP": "",
+        "città": "",
+        "provincia": "",
+        "stato": "",
+        "telefono": "",
+        "email": ""
+      },
+      "amministratori_e_soci": [
+        {
+          "ruolo": "Amministratore/Socio/Direttore",
+          "nome": "",
+          "cognome": "",
+          "codice_fiscale": "",
+          "data_nascita": "YYYY-MM-DD",
+          "percentuale_partecipazione": ""
+        }
+      ],
+      "dipendenti": {
+        "numero_totale_dipendenti": 0,
+        "numero_dipendenti_tempo_pieno": 0,
+        "numero_dipendenti_part_time": 0,
+        "dettagli_dipendenti": [
+          {
+            "nome": "",
+            "cognome": "",
+            "codice_fiscale": "",
+            "posizione": "",
+            "data_assunzione": "YYYY-MM-DD",
+            "tipo_contratto": "Full-time/Part-time/Determinato/Indeterminato",
+            "stipendio_mensile": 0,
+            "livello_categoria": ""
+          }
+        ]
+      }
+    },
+    "parametri_fiscali_contabili": {
+      "regime_fiscale": {
+        "tipo_regime": "Ordinario/Forfettario/Semplificato",
+        "data_inizio_regime": "YYYY-MM-DD",
+        "aliquota_IVA_applicata": ""
+      },
+      "fatturazione": {
+        "numero_fatture_anno": 0,
+        "fatturato_annuale_lordo": 0,
+        "fatturato_annuale_netto": 0,
+        "scadenza_fatturazione": "01/fine_mese",
+        "modalita_pagamento": "Bonifico/Assegno/Contante"
+      },
+      "imposte_tasse": {
+        "imposta_reddito_persone_fisiche": 0,
+        "imposta_reddito_societa": 0,
+        "IVA_trimestrale": 0,
+        "IRAP": 0,
+        "contributi_INPS": 0,
+        "contributi_assicurativi": 0
+      },
+      "bilancio": {
+        "data_chiusura_esercizio": "MM-DD",
+        "attivo_totale": 0,
+        "passivo_totale": 0,
+        "patrimonio_netto": 0,
+        "utile_perdita_esercizio": 0,
+        "utile_perdita_esercizio_precedente": 0
+      },
+      "ritenute_fiscali": {
+        "ritenuta_acconto": 0,
+        "ritenuta_contributi": 0,
+        "ritenuta_interessi": 0
+      },
+      "detrazioni_deduzioni": {
+        "deduzioni_costi_gestione": 0,
+        "deduzioni_ammortamenti": 0,
+        "deduzioni_interessi_mutui": 0,
+        "deduzioni_donazioni": 0
+      }
+    },
+    "parametri_bancari_finanziari": {
+      "conti_correnti": [
+        {
+          "banca": "",
+          "tipo_conto": "Corrente/Deposito/Risparmio",
+          "numero_conto": "",
+          "IBAN": "",
+          "BIC_SWIFT": "",
+          "intestatario": "",
+          "saldo_attuale": 0,
+          "limite_fido": 0,
+          "data_apertura": "YYYY-MM-DD",
+          "costi_gestione_annuali": 0
+        }
+      ],
+      "mutui_finanziamenti": [
+        {
+          "tipo": "Mutuo/Finanziamento/Leasing",
+          "importo_originario": 0,
+          "saldo_residuo": 0,
+          "tasso_interesse": 0,
+          "rata_mensile": 0,
+          "data_inizio": "YYYY-MM-DD",
+          "data_fine_prevista": "YYYY-MM-DD",
+          "istituto_finanziario": "",
+          "numero_pratica": ""
+        }
+      ],
+      "carte_credito": [
+        {
+          "banca": "",
+          "numero_carta_ultimi_4_digit": "****",
+          "tipo_carta": "Visa/Mastercard/AmEx",
+          "intestatario": "",
+          "limite_disponibile": 0,
+          "data_scadenza": "MM/YY",
+          "costo_annuale": 0
+        }
+      ],
+      "investimenti": [
+        {
+          "tipo": "Azioni/Obbligazioni/Fondi/Criptovalute",
+          "descrizione": "",
+          "importo_investito": 0,
+          "valore_attuale": 0,
+          "data_acquisto": "YYYY-MM-DD",
+          "rendita_annuale": 0
+        }
+      ],
+      "polizze_assicurative": [
+        {
+          "tipo": "Vita/Malattia/Auto/Casa/RC",
+          "compagnia_assicurativa": "",
+          "numero_polizza": "",
+          "premio_annuale": 0,
+          "data_inizio": "YYYY-MM-DD",
+          "data_scadenza": "YYYY-MM-DD",
+          "importo_copertura": 0
+        }
+      ]
+    },
+    "parametri_legali_contrattuali": {
+      "contratti_dipendenti": [
+        {
+          "dipendente": "",
+          "tipo_contratto": "Indeterminato/Determinato",
+          "data_firma": "YYYY-MM-DD",
+          "data_inizio_validita": "YYYY-MM-DD",
+          "data_fine_validita": "YYYY-MM-DD",
+          "mansione": "",
+          "livello_inquadramento": "",
+          "ore_settimanali": 0,
+          "file_allegato": ""
+        }
+      ],
+      "contratti_fornitori": [
+        {
+          "fornitore": "",
+          "tipo_servizio": "",
+          "data_inizio": "YYYY-MM-DD",
+          "data_fine": "YYYY-MM-DD",
+          "importo_mensile": 0,
+          "importo_totale": 0,
+          "condizioni_pagamento": "",
+          "file_allegato": ""
+        }
+      ],
+      "contratti_clienti": [
+        {
+          "cliente": "",
+          "tipo_progetto": "",
+          "data_inizio": "YYYY-MM-DD",
+          "data_fine": "YYYY-MM-DD",
+          "importo_totale": 0,
+          "importo_versato": 0,
+          "modalita_pagamento": "",
+          "file_allegato": ""
+        }
+      ],
+      "documenti_legali": {
+        "statuto_aziendale": {
+          "data_registrazione": "YYYY-MM-DD",
+          "numero_atto": "",
+          "notaio": "",
+          "file_allegato": ""
+        },
+        "atto_costituzione": {
+          "data_registrazione": "YYYY-MM-DD",
+          "numero_atto": "",
+          "conservatoria": "",
+          "file_allegato": ""
+        },
+        "visure_camerali": {
+          "data_ultimo_aggiornamento": "YYYY-MM-DD",
+          "file_allegato": ""
+        }
+      },
+      "accordi_commerciali": [
+        {
+          "contraente": "",
+          "tipo_accordo": "Partnership/Distribuzione/Esclusiva",
+          "data_inizio": "YYYY-MM-DD",
+          "data_fine": "YYYY-MM-DD",
+          "termini_principali": "",
+          "file_allegato": ""
+        }
+      ]
+    },
+    "parametri_sicurezza_privacy": {
+      "dati_personali": {
+        "responsabile_protezione_dati": "",
+        "email_DPO": "",
+        "data_nomina_DPO": "YYYY-MM-DD",
+        "registro_trattamenti": {
+          "data_creazione": "YYYY-MM-DD",
+          "data_ultimo_aggiornamento": "YYYY-MM-DD",
+          "file_allegato": ""
+        },
+        "informativa_privacy": {
+          "data_pubblicazione": "YYYY-MM-DD",
+          "versione": "",
+          "file_allegato": ""
+        },
+        "consensi_clienti": {
+          "numero_consensi_raccolti": 0,
+          "numero_consensi_revocati": 0,
+          "data_ultimo_aggiornamento": "YYYY-MM-DD"
+        }
+      },
+      "conformita_normative": {
+        "GDPR": {
+          "conforme": true,
+          "data_verifica": "YYYY-MM-DD",
+          "note": ""
+        },
+        "ISO_27001": {
+          "certificato": false,
+          "data_certificazione": "YYYY-MM-DD",
+          "scadenza": "YYYY-MM-DD"
+        },
+        "SOC_2": {
+          "certificato": false,
+          "data_certificazione": "YYYY-MM-DD",
+          "scadenza": "YYYY-MM-DD"
+        }
+      },
+      "controlli_accesso": {
+        "numero_utenti_attivi": 0,
+        "utenti_amministratori": 0,
+        "ultimo_audit_accessi": "YYYY-MM-DD",
+        "politica_password": {
+          "lunghezza_minima": 8,
+          "complessita_richiesta": true,
+          "validita_giorni": 90,
+          "cambio_obbligatorio": true
+        }
+      },
+      "backup_disaster_recovery": {
+        "frequenza_backup": "Giornaliero/Settimanale/Mensile",
+        "ultimo_backup": "YYYY-MM-DD",
+        "ubicazione_backup_primario": "",
+        "ubicazione_backup_secondario": "",
+        "rto_ore": 0,
+        "rpo_ore": 0,
+        "data_ultimo_test_recovery": "YYYY-MM-DD"
+      },
+      "incidenti_sicurezza": [
+        {
+          "data_incidente": "YYYY-MM-DD",
+          "tipo_incidente": "Accesso non autorizzato/Perdita dati/Malware/Altro",
+          "descrizione": "",
+          "dati_interessati_numero": 0,
+          "azioni_correttive": "",
+          "data_risoluzione": "YYYY-MM-DD"
+        }
+      ]
+    }
+  }
+}
